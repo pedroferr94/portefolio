@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <title>Minha Página Inicial</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="estilo.css">
+
+
+
+  <style>
+    .section {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+
+    #section3 .progress-bar {
+      background-color: #00b3b4;
+    }
+
+    #section4 .card {
+      transition: transform 0.5s;
+    }
+
+    a {
+    text-decoration: none;
+    }
+
+    .social-icon:hover img {
+    transform: scale(1.8); /* Aumenta o tamanho em 20% */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+  }
+
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  a {
+  text-decoration: none;
+  color: inherit; /* opcional: mantém a cor do texto padrão */
+}
+  </style>
+
+  
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarResponsive" data-bs-offset="0">
+  <body data-bs-spy="scroll" data-bs-target="#navbarResponsive" data-bs-offset="0">
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+  
+          
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active scrollspy" href="#section1">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollspy" href="#section2">Sobre Mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollspy" href="#section3">Currículo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollspy" href="#section4">Portefólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scrollspy" href="#section5">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<main style="background-color: #00b3b4;">
+  <div id="section1" class="container-fluid section">
+    <div class="container text-center py-1" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 10px;">
+        <h1 class="display-4">Bem-vindo à minha página</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <img src="imagens/img1.jpg" alt="Pedro Ferreira" class="img-fluid rounded-circle">
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <h2>Pedro Ferreira</h2>
+                <p>Produtor Musical | Sound Designer | Engenheiro de Som</p>
+                <p class="lead">Deslize para ver mais</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div id="section2" class="container-fluid section" style="background-color: #4cdcde;">
+    <div class="container text-center py-2 animate__animated animate__fadeInUp" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 10px;">
+      <h1 class="display-4 mb-4">Sobre Mim</h1>
+      <img src="imagens/img2.jpg" alt="Pedro Ferreira" class="img-fluid rounded-circle" style="width: 200px;">
+      <p class="lead">Olá! O meu nome é Pedro Ferreira e estou entusiasmado por partilhar um pouco sobre mim. Como um dedicado Produtor Musical, Sound Designer e Engenheiro de Som, mergulhei fundo em todas as nuances do mundo do áudio. Desde a produção musical até ao design sonoro, a minha paixão por criar experiências auditivas excecionais levou-me a explorar os mais variados tipos de trabalhos relacionados com o som.</p>
+      <p class="lead">Além disso, nutro um forte interesse em Front-end Development. A capacidade de dar vida às minhas ideias através do desenvolvimento web é algo que me cativa profundamente. A combinação entre o mundo do som e da tecnologia web é onde encontro o meu verdadeiro entusiasmo.</p>
+      <p class="lead">Ao longo dos anos, tenho tido o privilégio de trabalhar em projetos emocionantes e desafiadores, sempre buscando aprimorar as minhas habilidades e expandir o meu conhecimento. A minha jornada profissional é uma fusão entre a criatividade inerente à produção musical e a precisão técnica exigida pelo desenvolvimento front-end.</p>
+      <p class="lead">Estou ansioso por partilhar o meu trabalho e experiências com todos os que visitarem esta página. Aqui, encontrarás insights, projetos e um vislumbre do meu mundo criativo. Esteja à vontade para explorar e mergulhar nesta jornada comigo.</p>
+    </div>
+  </div>  
+
+
+  <div id="section3" class="container-fluid section" style="background-color: #66e1e3;">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="container text-center py-1 mt-4" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 20px;">
+            <h1 class="display-4 mb-4">Habilidades</h1>
+            <div class="progress-wrapper">
+              <p>FL Studio 20 - 100%</p>
+              <div class="progress">
+                <div class="progress-bar bg-#66e1e3 progress-bar-striped progress-bar-animated " role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper">
+              <p>Ableton Live - 80%</p>
+              <div class="progress">
+                <div class="progress-bar bg-#66e1e3 progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper">
+              <p>Pro Tools - 50%</p>
+              <div class="progress">
+                <div class="progress-bar bg-#66e1e3 progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper">
+              <p>Visual Studio Code - 80%</p>
+              <div class="progress">
+                <div class="progress-bar bg-#66e1e3 progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress-wrapper">
+              <p>Bootstrap Studio - 50%</p>
+              <div class="progress">
+                <div class="progress-bar bg-#66e1e3 progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="background-color: transparent;">
+          <div class="container text-center py-4 mt-4" style="background-color: rgba(255, 255, 255, 0.8); border-radius: 20px;">
+            <div class="card mb-4">
+              <div class="card-body">
+                <h2 class="display-4 mb-4">Experiência Profissional</h2>
+                <h5 class="card-subtitle mb-2 text-muted">Editora Segundo Piso, 2020-o momento</h5>
+                
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h1 class="display-4 mb-4">Educação</h1>
+                <h5 class="card-subtitle mb-2 text-muted">Restart (Edificio RTP) - 2019</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="section4" class="container-fluid section" style="background-color: #a5feff;">
+    <div class="container mt-5">
+      <h2 class="text-center mb-5">Portefólio</h2>
+      <div class="row">
+        <!-- Card 1 -->
+        <div class="col-sm-3">
+          <div class="card mb-2" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/album/3tgZu9J86zEOOUlUKx3765">
+              <img src="imagens/compilacao-14-outubro.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Compilação 14 de Outubro (Álbum)</h5>
+                <p class="card-text">Mistura e Masterização</p>
+                <div class="additional-info d-none">
+                  <p>Produzi alguns temas, e tratei da engenharia de som</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-sm-3">
+          <div class="card mb-3" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/track/33xR9RzS5AiQxWOmZJxFJQ">
+              <img src="imagens/kappa jotta.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kappa Jotta - Lifestyle (Single)</h5>
+                <p class="card-text">Produção</p>
+                <div class="additional-info d-none">
+                  <p>Produzi o tema "Lifestyle" em conjunto com o DJ Fifty</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-sm-3">
+          <div class="card mb-3" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/album/2hVjpWzpp0WSk81chvGzTI">
+              <img src="imagens/tostaz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tostaz - Data Venia (EP)</h5>
+                <p class="card-text">Mistura e Masterização</p>
+                <div class="additional-info d-none">
+                  <p>Tratei de toda a engenharia de som</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-sm-3">
+          <div class="card mb-3" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/album/0cEadb40RN1DHxqHYDK918">
+              <img src="imagens/dote.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dote - Maria (Single)</h5>
+                <p class="card-text">Mistura e Masterização</p>
+                <div class="additional-info d-none">
+                  <p>Tratei da engenharia de som, e pós produção</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="col-sm-3">
+          <div class="card mb-3" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/album/72r0YhgGT72wuRlM7hbCpy">
+              <img src="imagens/birro.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Birro - 30 anos de Rap (EP)</h5>
+                <p class="card-text">Mistura e Masterização</p>
+                <div class="additional-info d-none">
+                  <p>Tratei de toda a engenharia de som e pós produção</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="col-sm-3">
+          <div class="card mb-3" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/track/6eHB1XpbhuSxxMkoEXCBJ8">
+              <img src="imagens/ases.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ases - Trippin (Single)</h5>
+                <p class="card-text">Produção</p>
+                <div class="additional-info d-none">
+                  <p>Produzi o instrumental desta música</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-sm-3">
+          <div class="card mb-3" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/album/2ZBwggKRyZq7sMk9gp7YQu">
+              <img src="imagens/crici.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Crici - Ramalho Ortigáo (EP)</h5>
+                <p class="card-text">Mistura e Masterização - Produção</p>
+                <div class="additional-info d-none">
+                  <p>Produzi alguns temas deste EP e tratei de toda a sonoplastia</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="col-sm-3">
+          <div class="card mb-3" onmouseover="showInfo(this)" onmouseout="hideInfo(this)">
+            <a href="https://open.spotify.com/intl-pt/track/2A1TCUklBbh7qI84S8ZKgF">
+              <img src="imagens/deejay show.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Deejay Show - Pouco (Single)</h5>
+                <p class="card-text">Mistura e Masterização</p>
+                <div class="additional-info d-none">
+                  <p>Tratei da engenharia de som e pós-produção</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div id="section5" class="container-fluid section" style="background-color: #e5fafa;">
+    <div class="container mt-5 justify-content-center">
+      <div class="row justify-content-center">
+        <div class="col-sm-6 justify-content-center"> <!-- Added 'text-center' class -->
+          <h2 class="text-center">Entra em Contacto</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="name" placeholder="Escreve o teu nome">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" placeholder="Escreve o teu e-mail">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Escreve a tua mensagem"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</main>
+
+<footer>
+  <div class="container-fluid text-center py-3 fixed-bottom" style="background-color: #e5fafa; border-top-left-radius: 100px; border-top-right-radius: 100px">
+    <div>
+      <a href="https://www.facebook.com/composto2piso" class="social-icon" style="margin-right: 10px;">
+        <img src="imagens/facebook.png" alt="Facebook" style="width: 20px; height: 20px;">
+      </a>
+      <a href="https://www.linkedin.com/in/pedro-ferreira-8333b910b/" class="social-icon" style="margin-right: 10px;">
+        <img src="imagens/linkedin.png" alt="LinkedIn" style="width: 20px; height: 20px;">
+      </a>
+      <a href="https://www.instagram.com/_composto" class="social-icon" style="margin-right: 10px;">
+        <img src="imagens/instagram.png" alt="Instagram" style="width:20px; height:20px;">
+      </a>
+      <a href="https://open.spotify.com/playlist/62ntX7FZx9V6PSWAL6670X?si=wB69ps5eSHO1tYNaz9gk1A&utm_medium=share&utm_source=linktree&nd=1&dlsi=39aefb4e2a76401b" class="social-icon" style="margin-right: 10px;">
+        <img src="imagens/spotify.png" alt="Spotify" style="width:20px; height:20px;">
+      </a>
+      <a href="https://www.youtube.com/playlist?list=PLvPHKTSfak1M9oY6umTIE2FKeuz073PAp" class="social-icon" style="margin-right: 10px;">
+        <img src="imagens/youtube.png" alt="Youtube" style="width:20px; height:20px;">
+      </a>
+      <a href="https://soundcloud.com/prod_composto" class="social-icon" style="margin-right: 10px;">
+        <img src="imagens/soundcloud.png" alt="Soundcloud" style="width:20px; height:20px;">
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+
+
+<script>
+  function showInfo(card) {
+    card.querySelector(".additional-info").classList.remove("d-none");
+  }
+
+  function hideInfo(card) {
+    card.querySelector(".additional-info").classList.add("d-none");
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Função para atualizar a cor do footer com base na cor de fundo da seção atual
+    function updateFooterColor() {
+      // Obter a cor de fundo da seção atual
+      var currentSectionBackgroundColor = window.getComputedStyle(document.querySelector('section')).backgroundColor;
+      
+      // Aplicar a cor de fundo da seção ao footer
+      document.querySelector('footer').style.backgroundColor = currentSectionBackgroundColor;
+    }
+
+    // Chamar a função ao carregar a página
+    updateFooterColor();
+
+    // Chamar a função sempre que a janela for redimensionada (se necessário)
+    window.addEventListener('resize', updateFooterColor);
+  });
+
+</script>
+
+
+
+</html>
